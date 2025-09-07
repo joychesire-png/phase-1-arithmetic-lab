@@ -2,10 +2,10 @@
 
 ## Learning Goals
 
-* Recognize the limitations of math in JavaScript
-* Employ operators to perform arithmetic and assign values to variables
-* Explain what `NaN` is
-* Use built-in objects like `Math` and `Number` to accomplish complex tasks
+- Recognize the limitations of math in JavaScript
+- Employ operators to perform arithmetic and assign values to variables
+- Explain what `NaN` is
+- Use built-in objects like `Math` and `Number` to accomplish complex tasks
 
 ## Introduction
 
@@ -327,10 +327,10 @@ argument is the base that should be used in parsing (e.g., `2` for binary or
 `10` for decimal). For example, `100` is `100` in decimal but `4` in binary:
 
 ```js
-Number.parseInt('100', 10);
+Number.parseInt("100", 10);
 //=> 100
 
-Number.parseInt('100', 2);
+Number.parseInt("100", 2);
 //=> 4
 ```
 
@@ -343,7 +343,7 @@ confusion.
 parsed into a floating-point number:
 
 ```js
-Number.parseFloat('3.14159');
+Number.parseFloat("3.14159");
 //=> 3.14159
 ```
 
@@ -441,18 +441,17 @@ CodeGrade][completing-codegrade] lesson to review the process.
 
 [completing-codegrade]: https://github.com/learn-co-curriculum/phase-1-completing-assignments-with-codegrade
 
-
 ## Resources
 
-* MDN
-  * [Basic math in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math)
-  * [Arithmetic operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
-  * [Operator precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
-  * [Assignment operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators)
-  * [`NaN`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
-  * [`Number`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
-  * [`Math`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
-* [2ality — How numbers are encoded in JavaScript](http://2ality.com/2012/04/number-encoding.html)
-* [Order of Operations][pemdas]
+- MDN
+  - [Basic math in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math)
+  - [Arithmetic operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
+  - [Operator precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+  - [Assignment operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators)
+  - [`NaN`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
+  - [`Number`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+  - [`Math`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+- [2ality — How numbers are encoded in JavaScript](http://2ality.com/2012/04/number-encoding.html)
+- [Order of Operations][pemdas]
 
 [pemdas]: https://en.wikipedia.org/wiki/Order_of_operations
